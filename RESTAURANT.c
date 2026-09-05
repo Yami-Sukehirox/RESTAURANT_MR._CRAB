@@ -14,7 +14,7 @@ int main () {
 	printf ("\n-----MENU-------\n");
 	printf ("\n1. Garlic Butter - $50");
 	printf ("\n2. Mud Crabs - $70");
-	printf ("\n3. Butter Shirmp - $99");
+	printf ("\n3. Butter Shrimp - $99");
 	printf ("\n4. Sizzling Squid - $234");
 	printf ("\n5. Crispy Pata - $576");
 	printf ("\n6. Checkout");
@@ -47,13 +47,13 @@ int main () {
 			printf ("Quantity: ");
 			scanf ("%d", &quantity);
 			total = total + (234 * quantity);
-			printf ("\nSzilling Squid added\n");
+			printf ("\nSizzlling Squid added\n");
 			break;
 		case 5:
 			printf ("Quantity: ");
 			scanf ("%d", &quantity);
 			total = total + (576 * quantity);
-			printf ("\nCrispy pata added\n");
+			printf ("\nCrispy Pata added\n");
 			break;
 		case 6:
 			printf ("Enter customer name: ");
@@ -75,7 +75,7 @@ int main () {
 				printf ("Change: $%.2f\n", change);
 				
 				printf ("==========================\n");
-				printf ("\nThank you for odering!\n");
+				printf ("\nThank you for ordering!\n");
 			}
 			else {
 				printf ("Insufficient payment!\n");
