@@ -2,6 +2,7 @@
 
 int main () {
 	
+	char name[50];
 	int choice, quantity, again;
 	float total = 0;
 	float payment, change;
@@ -55,7 +56,13 @@ int main () {
 			printf ("\nCrispy pata added\n");
 			break;
 		case 6:
+			printf ("Enter customer name: ");
+			scanf ("%s", &name);
+			
+			
+			
 			printf ("\n========= RECEIPT ==========\n");	
+			printf ("Customer name: %s\n", name);
 			printf ("Total: $%.2f\n", total);
 			
 			printf ("Enter the payment: $\n");
